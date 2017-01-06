@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_levels"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.distractedprogramming.naveenkashyap.tictactoe.LevelsActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/tv_easy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/textview_margin"
+        android:background="@color/white"
+        android:text="@string/easy"
+        android:textSize="@dimen/textview_textsize"
+        android:gravity="center"
+        android:textAlignment="gravity"/>
+
+    <TextView
+        android:id="@+id/tv_medium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/textview_margin"
+        android:background="@color/white"
+        android:text="@string/medium"
+        android:textSize="@dimen/textview_textsize"
+        android:gravity="center"
+        android:textAlignment="gravity"/>
+
+    <TextView
+        android:id="@+id/tv_hard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/textview_margin"
+        android:background="@color/white"
+        android:text="@string/hard"
+        android:textSize="@dimen/textview_textsize"
+        android:gravity="center"
+        android:textAlignment="gravity"/>
+
+</LinearLayout>
